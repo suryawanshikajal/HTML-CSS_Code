@@ -1,0 +1,43 @@
+.divOne {
+    background-color: rgb(110, 110, 110);
+    margin:15px auto;
+    /* border: 1px solid rgb(9, 9, 9); */
+color: red;
+}
+
+.divTwo {
+    background-color: rgb(10, 10, 10);
+     margin:1px;
+     /* border: 1px solid rgb(9, 9, 9); */
+ color: green;
+}
+
+.divThree {
+  
+    background-color: rgb(210, 210, 210);
+    margin:15px;
+    /* border: 1px solid rgb(9, 9, 9); */
+color: blue;
+}
+
+.deep {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* id for pages */
+
+#demo1 {
+    width:20%;
+    border: 2px solid red;
+    margin:15px auto;               
+}
+
+.buttonFormat {
+   display: block;
+   width:500px;
+   margin:auto;
+   background-color: aqua;
+   font-size: xx-large;
+   font-weight: bolder;
+   text-align: center;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            animation-name:example;
+            position: relative;
+            animation-delay:2s;
+            animation-duration:4s;
+            background-color:black ;
+        }
+        @keyframes example {
+          0% {background-color: red; left:0px; top:0px;}
+          25% {background-color: aqua; left:200px; top:0px;}
+          50% {background-color: rgb(103, 31, 236); left:200px; top:200px;}
+          75% {background-color: rgb(44, 220, 44); left:0px; top:200px;}
+          100% {background-color: rgb(227, 22, 207); left:0px; top:0px;}
+        }
+        
+        .div1 {
+            width:100px;
+            height:100px;
+            background-color:red;
+            animation-name:kajal;
+            animation-duration: 4s;
+        }
+
+        @keyframes  kajal{
+            0% {background-color: red;}
+            25% {background-color: yellow;}
+            50% {background-color: blue;}
+            100% {background-color:green;}
+            
+        }
+    </style>
+</head>
+<body>
+   <div></div>
+</body>
+</html>

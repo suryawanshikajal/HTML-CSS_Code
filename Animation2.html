@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <style>
+        body{
+            background-color: rgba(148, 231, 64,0.7);
+        }
+        h1{
+            font-size: 300%;
+            line-height: 40px;
+            letter-spacing:0.4 rem;
+            color:rgb(3, 65, 3);
+            text-align: center;
+            margin-top: 30px;
+        }
+        .kajal{
+            width: 70%;
+            height: 400px;
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            background-color: url("https://wallpapers.com/images/featured/nature-2ygv7ssy2k0lxlzu.jpg");
+            background-size: 100% 100%;
+            animation:slider 7s infinite linear;
+            box-shadow: 2px 4px 7px rgb(13, 14, 13);
+
+        }
+        @keyframes slider{
+            0% {background-image: url("https://t4.ftcdn.net/jpg/05/47/97/81/360_F_547978128_vqEEUYBr1vcAwfRAqReZXTYtyawpgLcC.jpg");}
+            25% {background-image: url("https://webneel.com/daily/sites/default/files/images/daily/08-2018/1-nature-photography-spring-season-mumtazshamsee.jpg");}
+            50% {background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/1200px-Altja_j%C3%B5gi_Lahemaal.jpg");}
+            100% {background-image:url("https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-james-wheeler-417074.jpg&fm=jpg");}
+        }
+
+    </style>
+</head>
+<body>
+    <h1>NATURE</h1>
+    <div class="kajal">
+
+    </div>
+    
+</body>
+</html>

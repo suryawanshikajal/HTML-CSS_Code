@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+        .heading { 
+            text-align: center;
+            padding:20px;
+            margin:20px auto;
+            font-size: 150%;
+        }
+        form{
+            margin: 35px;
+            
+          }
+        .project {
+            background-color: aqua;
+            color:black;
+            text-align: left;
+            display:inline-block;
+            border:2px solid gray;
+            border-radius: 50px;
+        }
+        .btn{
+            border-radius:20px;
+            color: #fff;
+            margin-top: 18px;
+            padding: 10px;
+            background-color: #47c35a;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+      
+        }
+
+    </style>
+</head>
+<body>
+    <div class="project">
+    <h4 class="heading">Project Management</h4>
+    <form>
+    
+    <label for="Project Name">Project Name</label>
+    <input type="text" id="Project Name" placeholder="Project Name"><br><br>
+
+    <label for="Assigned to">Assigned to</label>
+    <input type="text" id="Assigned to" placeholder="Assigned to"><br><br>
+
+
+    <label for="Start Date">Start Date</label>
+    <input type="date" id="Start Date" name="Start Date"><br><br>
+
+    <label for="End Date">End Date</label>
+    <input type="date" id="End Date" name="End Date"><br><br>
+
+    <label>Priority:</label> 
+
+    <input id="priority1" type="radio" name="priority">
+    <label for="priority1">High</label>
+    
+    <input id="Average" type="radio" name="priority">
+    <label for="Average">Average</label>
+     
+    <input id="Low" type="radio" name="priority">
+    <label for="Low">Low</label><br><br>
+    
+    <label for="Description">Description</label>
+    <input type="text" id="Description" name="Description"><br><br>
+
+    <button type="button" class="btn">SUBMIT</button>
+    <button type="button" class="btn">RESET</button>
+
+   </form>
+   
+</div>
+</body>
+</html>
